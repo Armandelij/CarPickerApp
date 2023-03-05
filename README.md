@@ -4,3 +4,6 @@ This application allows user to place car models into the real world using the p
 
 https://user-images.githubusercontent.com/64448202/222935305-3091f993-2155-4554-b569-a539ff7d729b.MP4
 
+## Tech Used
+- ARKIT
+- SwiftUI
