@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE35D9AF2945300900219ACD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE35D9AE2945300900219ACD /* AppDelegate.swift */; };
+		BE35D9B12945300900219ACD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE35D9B02945300900219ACD /* ContentView.swift */; };
+		BE35D9B32945300900219ACD /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = BE35D9B22945300900219ACD /* Experience.rcproject */; };
+		BE35D9B52945300C00219ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE35D9B42945300C00219ACD /* Assets.xcassets */; };
+		BE35D9B82945300C00219ACD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE35D9B72945300C00219ACD /* Preview Assets.xcassets */; };
+		BE3CF84C2948EB4200099A8A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3CF84B2948EB4200099A8A /* Model.swift */; };
+		BE3CF84F2948FFA900099A8A /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = BE3CF84E2948FFA900099A8A /* FocusEntity */; };
+		BE3CF85B29492E6000099A8A /* McLaren Senna.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BE3CF85029492E6000099A8A /* McLaren Senna.usdz */; };
+		BE3CF85D29492E6000099A8A /* Ferrari F40.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BE3CF85229492E6000099A8A /* Ferrari F40.usdz */; };
+		BE3CF85E29492E6000099A8A /* Lamborghini Gallardo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BE3CF85329492E6000099A8A /* Lamborghini Gallardo.usdz */; };
+		BE3CF85F29492E6000099A8A /* Porsche 911 GT3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BE3CF85429492E6000099A8A /* Porsche 911 GT3.usdz */; };
+		BE3CF86029492E6000099A8A /* Bugatti Veyron.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BE3CF85529492E6000099A8A /* Bugatti Veyron.usdz */; };
+		BE3CF86129492E6000099A8A /* Lamborghini Countach.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BE3CF85629492E6000099A8A /* Lamborghini Countach.usdz */; };
+		BE3CF86229492E6000099A8A /* Audi R8.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BE3CF85729492E6000099A8A /* Audi R8.usdz */; };
+		BE3CF86329492E6000099A8A /* Lamborghini Huracán.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BE3CF85829492E6000099A8A /* Lamborghini Huracán.usdz */; };
+		BE3CF86429492E6000099A8A /* Lamborghini Aventador.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BE3CF85929492E6000099A8A /* Lamborghini Aventador.usdz */; };
+		BE3CF86529492E6000099A8A /* Nissan GTR.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BE3CF85A29492E6000099A8A /* Nissan GTR.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE35D9AB2945300900219ACD /* ModelPickerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelPickerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE35D9AE2945300900219ACD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE35D9B02945300900219ACD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE35D9B22945300900219ACD /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		BE35D9B42945300C00219ACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE35D9B72945300C00219ACD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE3CF84B2948EB4200099A8A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BE3CF85029492E6000099A8A /* McLaren Senna.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "McLaren Senna.usdz"; sourceTree = "<group>"; };
+		BE3CF85229492E6000099A8A /* Ferrari F40.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Ferrari F40.usdz"; sourceTree = "<group>"; };
+		BE3CF85329492E6000099A8A /* Lamborghini Gallardo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Lamborghini Gallardo.usdz"; sourceTree = "<group>"; };
+		BE3CF85429492E6000099A8A /* Porsche 911 GT3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Porsche 911 GT3.usdz"; sourceTree = "<group>"; };
+		BE3CF85529492E6000099A8A /* Bugatti Veyron.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Bugatti Veyron.usdz"; sourceTree = "<group>"; };
+		BE3CF85629492E6000099A8A /* Lamborghini Countach.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Lamborghini Countach.usdz"; sourceTree = "<group>"; };
+		BE3CF85729492E6000099A8A /* Audi R8.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Audi R8.usdz"; sourceTree = "<group>"; };
+		BE3CF85829492E6000099A8A /* Lamborghini Huracán.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Lamborghini Huracán.usdz"; sourceTree = "<group>"; };
+		BE3CF85929492E6000099A8A /* Lamborghini Aventador.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Lamborghini Aventador.usdz"; sourceTree = "<group>"; };
+		BE3CF85A29492E6000099A8A /* Nissan GTR.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "Nissan GTR.usdz"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE35D9A82945300900219ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3CF84F2948FFA900099A8A /* FocusEntity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE35D9A22945300900219ACD = {
+			isa = PBXGroup;
+			children = (
+				BE35D9AD2945300900219ACD /* ModelPickerApp */,
+				BE35D9AC2945300900219ACD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE35D9AC2945300900219ACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE35D9AB2945300900219ACD /* ModelPickerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE35D9AD2945300900219ACD /* ModelPickerApp */ = {
+			isa = PBXGroup;
+			children = (
+				BE35D9BE294534BD00219ACD /* Models */,
+				BE35D9AE2945300900219ACD /* AppDelegate.swift */,
+				BE35D9B02945300900219ACD /* ContentView.swift */,
+				BE3CF84B2948EB4200099A8A /* Model.swift */,
+				BE35D9B22945300900219ACD /* Experience.rcproject */,
+				BE35D9B42945300C00219ACD /* Assets.xcassets */,
+				BE35D9B62945300C00219ACD /* Preview Content */,
+			);
+			path = ModelPickerApp;
+			sourceTree = "<group>";
+		};
+		BE35D9B62945300C00219ACD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE35D9B72945300C00219ACD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE35D9BE294534BD00219ACD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BE3CF85729492E6000099A8A /* Audi R8.usdz */,
+				BE3CF85529492E6000099A8A /* Bugatti Veyron.usdz */,
+				BE3CF85229492E6000099A8A /* Ferrari F40.usdz */,
+				BE3CF85929492E6000099A8A /* Lamborghini Aventador.usdz */,
+				BE3CF85629492E6000099A8A /* Lamborghini Countach.usdz */,
+				BE3CF85329492E6000099A8A /* Lamborghini Gallardo.usdz */,
+				BE3CF85829492E6000099A8A /* Lamborghini Huracán.usdz */,
+				BE3CF85029492E6000099A8A /* McLaren Senna.usdz */,
+				BE3CF85A29492E6000099A8A /* Nissan GTR.usdz */,
+				BE3CF85429492E6000099A8A /* Porsche 911 GT3.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE35D9AA2945300900219ACD /* ModelPickerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE35D9BB2945300C00219ACD /* Build configuration list for PBXNativeTarget "ModelPickerApp" */;
+			buildPhases = (
+				BE35D9A72945300900219ACD /* Sources */,
+				BE35D9A82945300900219ACD /* Frameworks */,
+				BE35D9A92945300900219ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModelPickerApp;
+			packageProductDependencies = (
+				BE3CF84E2948FFA900099A8A /* FocusEntity */,
+			);
+			productName = ModelPickerApp;
+			productReference = BE35D9AB2945300900219ACD /* ModelPickerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE35D9A32945300900219ACD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					BE35D9AA2945300900219ACD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = BE35D9A62945300900219ACD /* Build configuration list for PBXProject "ModelPickerApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE35D9A22945300900219ACD;
+			packageReferences = (
+				BE3CF84D2948FFA900099A8A /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = BE35D9AC2945300900219ACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE35D9AA2945300900219ACD /* ModelPickerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE35D9A92945300900219ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3CF85D29492E6000099A8A /* Ferrari F40.usdz in Resources */,
+				BE3CF86329492E6000099A8A /* Lamborghini Huracán.usdz in Resources */,
+				BE3CF86429492E6000099A8A /* Lamborghini Aventador.usdz in Resources */,
+				BE3CF86229492E6000099A8A /* Audi R8.usdz in Resources */,
+				BE3CF85E29492E6000099A8A /* Lamborghini Gallardo.usdz in Resources */,
+				BE3CF86029492E6000099A8A /* Bugatti Veyron.usdz in Resources */,
+				BE35D9B82945300C00219ACD /* Preview Assets.xcassets in Resources */,
+				BE35D9B52945300C00219ACD /* Assets.xcassets in Resources */,
+				BE3CF85B29492E6000099A8A /* McLaren Senna.usdz in Resources */,
+				BE3CF86529492E6000099A8A /* Nissan GTR.usdz in Resources */,
+				BE3CF86129492E6000099A8A /* Lamborghini Countach.usdz in Resources */,
+				BE3CF85F29492E6000099A8A /* Porsche 911 GT3.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE35D9A72945300900219ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE35D9B12945300900219ACD /* ContentView.swift in Sources */,
+				BE35D9AF2945300900219ACD /* AppDelegate.swift in Sources */,
+				BE35D9B32945300900219ACD /* Experience.rcproject in Sources */,
+				BE3CF84C2948EB4200099A8A /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE35D9B92945300C00219ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE35D9BA2945300C00219ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE35D9BC2945300C00219ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ModelPickerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 98F386N35J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElijahArmande.ModelPickerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE35D9BD2945300C00219ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ModelPickerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 98F386N35J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElijahArmande.ModelPickerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE35D9A62945300900219ACD /* Build configuration list for PBXProject "ModelPickerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE35D9B92945300C00219ACD /* Debug */,
+				BE35D9BA2945300C00219ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE35D9BB2945300C00219ACD /* Build configuration list for PBXNativeTarget "ModelPickerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE35D9BC2945300C00219ACD /* Debug */,
+				BE35D9BD2945300C00219ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BE3CF84D2948FFA900099A8A /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BE3CF84E2948FFA900099A8A /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE3CF84D2948FFA900099A8A /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BE35D9A32945300900219ACD /* Project object */;
+}
